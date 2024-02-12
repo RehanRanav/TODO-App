@@ -21,7 +21,6 @@ function HomePage() {
     }, 800);
   }, [tasklist]);
   
-  console.log(tasklist)
   return (
     <div className="w-full text-center">
       <div className="flex justify-center mt-20">
