@@ -122,6 +122,7 @@ function TaskCard({ task, index, status }) {
         value={taskInput}
         onChange={editTaskInput}
         onKeyDown={(e) => handleKeyDown(e)}
+        autoComplete="off"
         disabled={disableTask}
         required
       />
